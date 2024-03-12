@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: #D4D4D4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 750px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid rgba(92, 92, 92, 0.192);
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: baseline;
+    font-weight: bolder;
+    color: #480000;
+    margin: 10px;
+}
+
+div header img {
+    height: 30px;
+}
+
+.linha {
+    border-bottom: 3px solid black;
+    width: 100%;
+    ;
+}
+
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+    
+}
+
+form input
+{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 3px;
+
+}
+
+form input:focus
+{
+    outline: none;
+}
+
+form button
+{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width: 228px;
+    height: 42px;
+    background-color: #1C5B12;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input#materia {
+    width: 490px;
+    height: 42px;
+}
+
+input#nota
+{
+    width: 135px;
+    height: 42px;
+}
+
+input[type="number"]
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type="number"]::placeholder
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+form input[type=number]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+}
+
+input[type="text"]
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type="text"]::placeholder
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+table th
+{
+    border-bottom: 3px solid black;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    margin-top: 105px;
+    font-weight: bolder;
+    color: #480000;
+}
+
+
+
+table img
+{
+    width: 30px;
+}
+
+
+table td
+{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+    width: 280px;
+    text-align: center;
+}
+
+.resultado
+{
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.aprovado
+{
+    background-color: #1C5B12;
+}
+
+.reprovado
+{
+    background-color: #480000;
+}
+
+
+
+table tfoot td
+{
+    border-top: 3px solid black;
+    border-bottom: none;
+}
+
